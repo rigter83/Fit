@@ -1,6 +1,7 @@
 import Head from "next/head";
 import client from "../lib/mongodb";
 import type { InferGetServerSidePropsType, GetServerSideProps } from "next";
+import Image from 'next/image'
 
 type ConnectionStatus = {
   isConnected: boolean;
